@@ -1,5 +1,5 @@
-const path = require('path')
 const { app, BrowserWindow } = require('electron')
+const path = require('path')
 
 // declare this as a variable globally so we can
 // reference it and so it will not be garbage collected
@@ -9,8 +9,6 @@ let mainWindow
 app.on('ready', () => {
   // path to our html
   const htmlPath = path.join('src', 'index.html')
-
-  console.log(htmlPath)
 
   // create a browser window
   mainWindow = new BrowserWindow()

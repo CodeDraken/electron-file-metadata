@@ -8,6 +8,21 @@
 </head>
 <body>
   <h1>File Metadata Viewer</h1>
+
+  <form>
+    <div>
+      <label for="filepicker">
+        <input id="filePicker" name="filepicker" type="file" multiple>
+      </label>
+    </div>
+
+    <button>Get Metadata</button>
+  </form>
+
+  <hr />
+
+  <pre id="data"></pre>
+
   <script src="./renderer.js"></script>
 </body>
 </html>
