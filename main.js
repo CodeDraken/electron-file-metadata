@@ -15,5 +15,5 @@ app.on('ready', () => {
   // create a browser window
   mainWindow = new BrowserWindow()
 
-  mainWindow.loadFile()
+  mainWindow.loadFile(htmlPath)
 })
