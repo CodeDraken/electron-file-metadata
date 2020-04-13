@@ -15,7 +15,11 @@ app.on('ready', () => {
   const htmlPath = path.join('src', 'index.html')
 
   // create a browser window
-  mainWindow = new BrowserWindow()
+  mainWindow = new BrowserWindow({
+        webPreferences: {
+            nodeIntegration: true
+        }
+  })
 
   mainWindow.loadFile(htmlPath)
 })
