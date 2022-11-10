@@ -13,7 +13,7 @@
   "author": "CodeDraken",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.4",
+    "electron": "^18.3.7",
     "standard": "^12.0.1"
   }
 }
